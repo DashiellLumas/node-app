@@ -1,0 +1,9 @@
+#!/bin/sh
+
+<<EOF
+cd ~/node-app
+git pull
+npm install
+pm2 restart install
+exit
+EOF
