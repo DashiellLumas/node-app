@@ -1,10 +1,10 @@
 #!/bin/sh
 
 <<EOF
-ssh root@138.197.72.102
+ssh root@138.197.72.102 -i ~/keyfilename.rsa
 cd ~/node-app
 git pull
 npm install
-pm2 restart install
+pm2 restart all
 exit
 EOF
