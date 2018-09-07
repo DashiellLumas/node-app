@@ -2,6 +2,7 @@
 
 <<EOF
 ssh root@138.197.72.102 -i ~/keyfilename.rsa
+mkdir boogie
 cd ~/node-app
 git pull
 npm install
