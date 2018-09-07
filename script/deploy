@@ -1,6 +1,7 @@
 #!/bin/sh
 
 <<EOF
+ssh root@138.197.72.102
 cd ~/node-app
 git pull
 npm install
